@@ -4,7 +4,7 @@ export type Movie = {
     genres: {
         id: number,
         name: string
-    },
+    }[],
     release_date: string,
     runtime: number | null,
     budget: number,
